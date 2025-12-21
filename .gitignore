@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# PyTorch / CUDA
+*.pt
+*.pth
+
+# NeRF / training outputs
+outputs/
+runs/
+checkpoints/
+
+# macOS
+.DS_Store
+
