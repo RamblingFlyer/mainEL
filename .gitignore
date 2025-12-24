@@ -1,21 +1,18 @@
 # Python
+venv/
 __pycache__/
 *.pyc
 
-# Virtual environments
-venv/
-.env/
-.venv/
-
-# PyTorch / CUDA
-*.pt
-*.pth
-
-# NeRF / training outputs
+# Nerfstudio outputs
 outputs/
-runs/
-checkpoints/
+nerfstudio/outputs/
+nerfstudio_models/
 
-# macOS
+# COLMAP / NeRF heavy data
+dense/
+database.db
+*.bin
+*.db
+
+# OS junk
 .DS_Store
-
